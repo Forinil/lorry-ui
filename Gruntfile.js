@@ -146,6 +146,7 @@ module.exports = function (grunt) {
       options: {
         jshintrc: '.jshintrc',
         reporter: require('jshint-stylish'),
+        reporterOutput: '',
         ignores: ['<%= yeoman.app %>/scripts/lib/FileSaver.js']
       },
       all: {
